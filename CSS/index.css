@@ -173,14 +173,14 @@ footer h5, p{
 }
 
 .partner img{
-    width: 80%;
-    height: 70%;
+    width: 60%;
+    height: 50%;
 
 }
 @media(max-width:576px){
 	.partner img{
-        width: 40%;
-        height: 30%;
+        width: 30%;
+        height: 20%;
     
     }
 }
