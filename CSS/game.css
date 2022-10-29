@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.gamebtn {
+    width: 30%;
+    height: 30%;
+    padding: 10%;
+    border-radius: 5px;
+    border: black 2px solid;
+    margin: auto 10%;
+    margin-top: 3rem;
+    text-align: center !important;
+    color: white;
+}
