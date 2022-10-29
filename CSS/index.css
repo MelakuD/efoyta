@@ -14,15 +14,31 @@ html,body{
 	/*background-color: rgb(197, 197, 197);*/
     scroll-behavior: smooth;
 }
+
+/*nav bar*/
 .navbar{
 	padding: 0.5rem;
 }
 .navbar-nav li{
-    padding-right: 15px;
+    padding-right: 1rem;
 }
 .nav-link:hover::first-letter{
 	border-bottom: chocolate 2px solid;
 }
+.navbar-brand img {
+    margin-left: 1rem;
+}
+/*form {
+    float: right;
+}
+form input{
+    margin-left: 2rem;
+}
+form .btn {
+    margin-right: 2rem;
+}
+*/
+/*carousel */
 .carousel-inner .carousel-item img{
     height: 80vh;
     width: 100%;
@@ -38,17 +54,36 @@ html,body{
     text-shadow: 1px 1px 15px #000;
     font-weight: bold;
 }
-.carousel-caption button{
-	border: none;
-	padding: 0.4rem 1rem;
-	border-radius: 15px;
-	background-color: rgb(56, 56, 141);
-	color: white;
-}
-.carousel-caption button:hover{
-	background-color: blue;
+
+@media(max-width:772px){
+	.carousel-inner .carousel-item img{
+        height: 50vh;
+        width: 100%;
+    }
+    .carousel-inner .carousel-item .carousel-caption h2{
+        font-size: 100% !important;
+        display: initial;
+        top: 50%;
+        transform: translateY(-50%);
+        font-weight: normal;
+    }
 }
 
+@media(max-width:576px){
+	.carousel-inner .carousel-item img{
+        height: 30vh;
+        width: 100%;
+    }
+    .carousel-inner .carousel-item .carousel-caption{
+        font-size: 1rem !important;
+        display: initial;
+        top: 15%;
+        transform: translateY(-15%);
+        font-weight: normal;
+    }
+}
+
+/*card*/
 .cardone {
     width: 80%;
     height: 30hv;
@@ -113,3 +148,4 @@ footer h5, p{
 .fa-telegram:hover {
     color: rgb(9, 65, 82);
 }
+
