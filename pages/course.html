@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Games</title>
+    <title>Course</title>
     <!--icon-->
     <link rel="icon" href="../Image/cada-logo-zip-file/png/logo-no-background.png">
     <!--font awesome icon-->
@@ -13,13 +13,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!--stylesheet-->
     <link href="../CSS/index.css" rel="stylesheet">
-    <link href="../CSS/game.css" rel="stylesheet">
+    <link href="../CSS/course.css" rel="stylesheet">
 </head>
 <body>
     <!--navigation-->
     <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="../index.html">
             <img src="../Image/cada-logo-zip-file/png/logo-no-background.png" alt="CADA" class="image-fluid" width="60rem" height="45rem">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,10 +37,10 @@
                 <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="about.html">Course</a>
+                <a class="nav-link active" aria-current="page" href="#">Course</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Games</a>
+                <a class="nav-link active" aria-current="page" href="game.html">Games</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -63,61 +63,260 @@
         </div>
       </nav>
 
+      <div class="container-fluid">
+        <div class="row pt-3 pb-3">
+          <h3 class="text-primary"> Welcome!</h3>
+        </div>
+      </div>
+
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs p-4">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#menu1">Inprogress</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#menu2">Completed</a>
+        </li>
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div class="tab-pane container active" id="home">
+          <div class="row mt-3 bg-light">
+            <div class="col-3">
+                <img src="../Image/Retail Product Pricing Strategy.png" width="70%" height="90%">
+            </div>
+            <div class="col-9">
+              <div class="row">
+                <h4>Soft Skill</h4>
+              </div>
+              <div class="row p-3">
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
+                </div>
+              </div>
+              <div class="row">
+                <p class="text-success">overall progress</p>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-3 bg-light">
+            <div class="col-3">
+                <img src="../Image/The-conservation-agriculture-covers-three-basic-principles-i-direct-seeding-or.png" width="70%" height="90%">
+            </div>
+            <div class="col-9">
+              <div class="row">
+                <h4>Conservation of Agriculture</h4>
+              </div>
+              <div class="row p-3">
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">100%</div>
+                </div>
+              </div>
+              <div class="row">
+                <p class="text-success">overall progress</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane container fade" id="menu1">.p2..</div>
+        <div class="tab-pane container fade" id="menu2">.p3..</div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row mt-3">
+          <h3>Most Popular</h3>
+        </div>
+      </div>
+
+      <div class="container-fluid p-3 text-center">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3">
+              <div class="card">
+                  <div class="card-header bg-primary">
+                    <h4 class="text-uppercase text-center text-dark">Soft Skill</h4>
+                  </div>
+                  <div class="card-body">
+                      
+                      <p class="text-dark">
+                        Soft skills are non-technical 
+                        skills that describe how you 
+                        work and interact with others. 
+                        Unlike hard skills, they're not 
+                        necessarily something you'll 
+                        learn in a course, like data 
+                        analytics or programming
+                      </p>
+                  </div>
+                  <div class="card-footer">
+                    <h4 class="text-center"><a href="#">Enroll</a></h4>
+                  </div>
+              </div>
+          </div>
+          <div class="col-xs-12 col-sm-3">
+            <div class="card">
+                <div class="card-header bg-primary">
+                  <h4 class="text-uppercase text-center text-dark">Conservation 
+                    of Agriculture</h4>
+                </div>
+                <div class="card-body">
+                    
+                    <p class="text-dark">
+                      conservation 
+                      Agriculture (CA) is a 
+                      farming system that 
+                      can prevent losses of 
+                      arable land while 
+                      regenerating degraded 
+                      lands. It promotes 
+                      maintenance of a ...
+                    </p>
+                </div>
+                <div class="card-footer">
+                  <h4 class="text-center"><a href="#">Enroll</a></h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <div class="card">
+              <div class="card-header bg-primary">
+                <h5 class="text-uppercase text-center text-dark">Basics of 
+                  Agriculture</h5>
+              </div>
+              <div class="card-body">
+                  
+                  <p class="text-dark">
+                    the science, art, or practice of 
+cultivating the soil, producing 
+crops, and raising livestock 
+and in varying degrees the 
+preparation and marketing of 
+the resulting products cleared 
+the land to use it for 
+agriculture
+                  </p>
+              </div>
+              <div class="card-footer">
+                <h4 class="text-center"><a href="#">Enroll</a></h4>
+              </div>
+          </div>
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-3">
+              <div class="card">
+                  <div class="card-header bg-primary">
+                    <h4 class="text-uppercase text-center text-dark">Communication 
+                      skill</h4>
+                  </div>
+                  <div class="card-body">
+                      
+                      <p class="text-dark">
+                        Communication skills are the 
+abilities you use when giving 
+and receiving different kinds 
+of information. Some 
+examples include 
+communicating new ideas, 
+feelings or even an update on 
+your project.
+                      </p>
+                  </div>
+                  <div class="card-footer">
+                    <h4 class="text-center"><a href="#">Enroll</a></h4>
+                  </div>
+              </div>
+          </div>
+          <div class="col-xs-12 col-sm-3">
+            <div class="card">
+                <div class="card-header bg-primary">
+                  <h4 class="text-uppercase text-center text-dark">Project 
+                    Management</h4>
+                </div>
+                <div class="card-body">
+                    
+                    <p class="text-dark">
+                      A project manager leads a 
+projects team using good 
+communication, interpersonal 
+skills, motivational skills, and 
+organization.
+                    </p>
+                </div>
+                <div class="card-footer">
+                  <h4 class="text-center"><a href="#">Enroll</a></h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <div class="card">
+              <div class="card-header bg-primary">
+                <h5 class="text-uppercase text-center text-dark">Leadership 
+                  skill</h5>
+              </div>
+              <div class="card-body">
+                  
+                  <p class="text-dark">
+                    Leadership skills are the 
+strengths and abilities 
+individuals demonstrate that 
+help to oversee processes, 
+guide initiatives and steer 
+their employees toward ...
+                  </p>
+              </div>
+              <div class="card-footer">
+                <h4 class="text-center"><a href="#">Enroll</a></h4>
+              </div>
+          </div>
+        </div>
+        </div>
+      </div>
 
       <!--footer-->
     <footer class="padding mt-5">
-        <div class="container-fluid">
-            <div class="row text-left">
-                <div class="col-sm-6">
-                    <h5 class="text-uppercase">featured programms</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item"><a href="game.html" class="nav-link">Games</a></li>
-                        <li class="nav-item"><a href="localnews.htm" class="nav-link">News</a></li>
-                        <li class="nav-item"><a href="jobs.html" class="nav-link">Jobs</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <h5 class="text-uppercase">company</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item"><a href="pages/about.html" target="_blank" class="nav-link">About</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <h5 class="text-uppercase">support</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item"><a href="pages/contactus.html" class="nav-link">contact us</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-4">
-                    <a href="https://www.facebook.com/profile.php?id=100087430263206"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                    <a href="https://t.me/M_D_21"><i class="fab fa-telegram"></i></a>
-                </div>
-                <div class="col-1">
-                    <img src="Image/partner/ethiojobs.png" class="img-fluid" width="80px" height="15px">
-                </div>
-                <div class="col-1">
-                    <img src="Image/partner/giz.jpg" class="img-fluid" width="50px" height="15px">
-                </div>
-                <div class="col-1">
-                    <img src="Image/partner/atingi-Logo.png" class="img-fluid" width="50px" height="15px">
-                </div>
-                
-            </div>
+      <div class="container-fluid">
+          <div class="row text-left pt-3">
+              <div class="col-sm-6">
+                  <h5 class="text-uppercase">featured programms</h5>
+                  <ul class="nav flex-column">
+                      <li class="nav-item"><a href="#" class="nav-link">Course</a></li>
+                      <li class="nav-item"><a href="game.html" class="nav-link">Games</a></li>
+                      <li class="nav-item"><a href="localnews.htm" class="nav-link">News</a></li>
+                      <li class="nav-item"><a href="jobs.html" class="nav-link">Jobs</a></li>
+                  </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                  <h5 class="text-uppercase">company</h5>
+                  <ul class="nav flex-column">
+                      <li class="nav-item"><a href="about.html" target="_blank" class="nav-link">About</a></li>
+                  </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                  <h5 class="text-uppercase">support</h5>
+                  <ul class="nav flex-column">
+                      <li class="nav-item"><a href="contactus.html" class="nav-link">contact us</a></li>
+                      <div class="col-3">
+                        <a href="https://www.facebook.com/profile.php?id=100087430263206"><i class="fab fa-facebook"></i></a>
+                        <a href="https://t.me/M_D_21"><i class="fab fa-telegram"></i></a>
+                        <a href="https://online.atingi.org/course/view.php?id=3298"><img src="../Image/partner/atingi-Logo.png" class="img-fluid"></a>
+                    </div>
+                  </ul>
+              </div>
           </div>
+      </div>
 
-        <div class="container-fluid bg-light mt-5">
-            <div class="row pt-5">
-                <div class="col">
-                    <p class="text-dark text-center">&copy;2020, ALL RIGHT RESERVED, THE VISIONARY</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+      <div class="container-fluid bg-light mt-3">
+          <div class="row pt-3">
+              <div class="col">
+                  <p class="text-dark text-center">&copy;2022, ALL RIGHT RESERVED, THE VISIONARY</p>
+              </div>
+          </div>
+      </div>
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
